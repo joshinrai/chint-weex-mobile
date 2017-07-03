@@ -9,13 +9,34 @@
   <meta name="apple-touch-fullscreen" content="yes">
   <meta name="format-detection" content="telephone=no, email=no">
   <!-- <style>body > div { height: 100%; }</style> -->
-  <style>body::before { content: "1"; height: 1px; overflow: hidden; color: transparent; display: block; }</style>
+  <style>
+    body::before { content: "1"; height: 1px; overflow: hidden; color: transparent; display: block; }
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+    body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+    td,th,caption { font-size:14px; }
+    h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+    address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+    a { color:#555; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    img { border:none; }
+    ol,ul,li { list-style:none; }
+    input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+    table { border-collapse:collapse; }
+    html {overflow: hidden;} 
+
+    .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+    .clearfix { *zoom:1; }
+  </style>
   <script src="./assets/phantom-limb.js"></script>
   <script src="./node_modules/vue/dist/vue.runtime.js"></script>
   <script src="./node_modules/weex-vue-render/index.js"></script>
 </head>
 <body>
   <div id="root"></div>
+  <h2>正泰燃气综合管理平台</h2>
+  <input name="userno" type="text" placeholder="用户名" />
+  <input name="password" type="password" placeholder="密码" />
+  <button class="btn_login" id="waplogi n">登录</button>
   <script src="./dist/app.web.js"></script>
 </body>
 </html>
