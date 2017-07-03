@@ -9,17 +9,22 @@ npm install
 ```
 
 ## 构建weex项目
-### 为 Weex 和 Web 构建js的终端
+* 为 Weex 和 Web 构建js的终端
 ```bash
 npm run build
 ```
 
-# 监听文件改变情况
+* 监听文件改变情况
+```bash
 npm run dev
+```
 
-# 在8080端口下启动项目
+* 在8080端口下启动项目
+```bash
 npm run serve
+```
 
-# 为 调试 和 native 开启weex工具集
+* 为 调试 和 native 开启weex工具集
+```bash
 npm run debug
 ```
