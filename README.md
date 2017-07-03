@@ -1,7 +1,7 @@
 ## 正泰燃气表weex版，兼容Android和IOS的跨平台应用
 
 ## 关于项目构建
-** 构建weex项目:npm install -g weex-toolkit
+* 构建weex项目:npm install -g weex-toolkit
 
 ## 开始项目
 ```bash
@@ -9,9 +9,10 @@ npm install
 ```
 
 ## 构建weex项目
+### 为 Weex 和 Web 构建js的终端
 ```bash
-# 为 Weex 和 Web 构建js的终端
 npm run build
+```
 
 # 监听文件改变情况
 npm run dev
