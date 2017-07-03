@@ -4,6 +4,7 @@
 ** 构建weex项目:npm install -g weex-toolkit
 
 ## 开始项目
+```bash
 npm install
 ```
 
