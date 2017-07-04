@@ -1,4 +1,4 @@
-## 正泰燃气表weex版，兼容Android和IOS的跨平台应用
+## weex版，兼容Android和IOS的跨平台应用
 
 ## 关于项目构建
 * 构建weex项目
